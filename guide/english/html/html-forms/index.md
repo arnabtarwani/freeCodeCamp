@@ -71,3 +71,5 @@ The form tag can also have an attribute named "target" which specifies where the
 
 The action attribute defines the action to be performed when the form is submitted.
 Normally, the form data is sent to a web page at the Script URL when the user clicks on the submit button. If the action attribute is omitted, the action is set to the current page.
+
+To add better functionality to a form, javascript could be used to add restrictions in entities such as email addresses and passwords such that text ending with @xyz.com will be considered as an email. Similarly, in passwords, there must be at least 8 characters to be a valid password. 
